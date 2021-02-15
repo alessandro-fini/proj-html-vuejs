@@ -12,6 +12,10 @@ h3,
 h4{
   font-family: 'Bai Jamjuree', sans-serif;
 }
+
+a{
+  text-decoration: none;
+}
 /* / generali */
 
 body{
@@ -53,7 +57,6 @@ header .head-right-bg{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
 }
 
 nav .logo{
@@ -62,4 +65,25 @@ nav .logo{
 
 nav .logo img{
   width: 100%;
+}
+
+nav .nav-right{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav-right a{
+  height: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 90px;
+  margin-left: 20px;
+}
+
+.nav-right a:hover{
+  font-weight: 700;
+  border-top: 2px solid white;
 }
