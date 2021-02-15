@@ -83,7 +83,14 @@ nav .nav-right{
   margin-left: 20px;
 }
 
-.nav-right a:hover{
+.nav-right a:first-of-type{
+  font-weight: 700;
+  border-top: 4px solid white;
+  line-height: 82px;
+}
+
+.nav-right a:hover,
+.nav-right a:active{
   font-weight: 700;
   border-top: 4px solid white;
   line-height: 82px;
@@ -127,6 +134,18 @@ nav .nav-right{
   text-align: center;
   background-color: #39febe;
   color: black;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jumbo-content i{
+  padding: 10px 20px;
+  font-size: 30px;
+  color: #39febe;
+  vertical-align: bottom;
+  margin-left: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
   cursor: pointer;
 }
 
