@@ -85,5 +85,39 @@ nav .nav-right{
 
 .nav-right a:hover{
   font-weight: 700;
-  border-top: 2px solid white;
+  border-top: 4px solid white;
+  line-height: 82px;
 }
+
+.container .jumbo{
+  width: 100%;
+  height: calc(750px - 90px);
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.jumbo .jumbo-content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbo-content span,
+.jumbo-content p{
+  display: inline-block;
+}
+
+.jumbo-content span{
+  width: 60px;
+  height: 3px;
+  border-bottom: 4px solid #39febe;
+  margin-right: 20px;
+}
+
+.jumbo-content h1{
+  max-width: 600px;
+  font-size: 85px;
+}
+
