@@ -121,3 +121,12 @@ nav .nav-right{
   font-size: 85px;
 }
 
+.jumbo-content .button{
+  width: 30%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #39febe;
+  color: black;
+  cursor: pointer;
+}
+
