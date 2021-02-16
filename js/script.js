@@ -1,6 +1,7 @@
 let app = new Vue ({
   el: '#app',
   data: {
+    /* header */
     headLinks: [
       'home',
       'about',
@@ -9,6 +10,8 @@ let app = new Vue ({
       'blog',
       'contact'
     ],
+    /* / header */
+    /* slider */
     activeImages: [],
     counterImg: 1,
     imgSlot: [
@@ -43,7 +46,8 @@ let app = new Vue ({
         counter: 2
       }
     ],
-    itemIndex: null
+    itemIndex: null,
+    /* / slider */
   },
   created() {
     this.imgSlot.forEach((element) => {

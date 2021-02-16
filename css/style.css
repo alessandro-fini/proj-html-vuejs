@@ -370,6 +370,70 @@ nav .nav-right{
   align-items: center;
 }
 /* / third section */
+/* fourth section */
+#testimonial{
+  margin-bottom: 180px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#testimonial .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#testimonial .top{
+  margin-left: 40%;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#testimonial .top span:first-of-type{
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+#testimonial .top span:last-of-type{
+  width: 40px;
+  display: inline-block;
+  border-bottom: 3px solid #35ffbf;
+}
+
+#testimonial .title{
+  width: 30%;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: right;
+}
+
+#testimonial .content-box{
+  width: 95%;
+  padding: 3% 5% 3% 3%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#testimonial .content-box .text-box{
+  flex-basis: 30%;
+  color: black;
+}
+
+#testimonial .content-box .text-box p:first-of-type,
+#testimonial .content-box .text-box p:last-of-type{
+  color: gray;
+}
+
+#testimonial .content-box .text-box p:nth-child(2){
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 18px;
+}
+/* / fourth section */
 /* / main */
 
 
