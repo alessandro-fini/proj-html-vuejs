@@ -290,6 +290,55 @@ nav .nav-right{
   font-size: 12px;
 }
 /* / second section */
+/* third section */
+#project{
+  margin-top: 150px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#project span:first-of-type{
+  display: inline-block;
+  width: 50px;
+  border-bottom: 3px solid #35ffbf;
+  margin-right: 20px;
+}
+
+#project .title-box{
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#project .title-box h2{
+  flex-basis: 50%;
+  font-size: 30px;
+}
+
+#project .title-box .back-forward img{
+  margin-left: 10px;
+  background-color: #36354c;
+  height: 70px; 
+  cursor: pointer;
+}
+
+#project .image-container{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#project .image-container .image-box{
+  flex-basis: 32%;
+}
+
+#project .image-container .image-box img{
+  width: 100%;
+}
+
+
+/* / third section */
 /* / main */
 
 

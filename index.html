@@ -107,7 +107,24 @@
       </section>
       <!-- / second section -->
       <!-- third section (slider) -->
-      <section></section>
+      <section id="project">
+        <div class="container">
+          <span></span>
+          <span>project</span>
+          <div class="title-box">
+            <h2>our expert trusted consultants help clients</h2>
+            <div class="back-forward">
+              <img src="img/default-skin-back-2.png" alt="back" @click="back">
+              <img src="img/default-skin-forward-2.png" alt="forward" @click="forward">
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="image-box" v-for="image in activeImages">
+              <img :src="image.source" :alt="image.name">
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- / third section -->
       <!-- fourth section (testimonial) -->
       <section></section>
