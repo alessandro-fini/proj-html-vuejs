@@ -76,6 +76,9 @@ let app = new Vue ({
           this.activeImages.push(element);
         }
       });
+    },
+    scroll: function () {
+      window.scrollTo(0, top);
     }
   }
 });
