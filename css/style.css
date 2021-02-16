@@ -331,13 +331,44 @@ nav .nav-right{
 
 #project .image-container .image-box{
   flex-basis: 32%;
+  position: relative;
 }
 
 #project .image-container .image-box img{
   width: 100%;
 }
 
+#project .image-box .layover{
+  width: 102%;
+  height: 102%;
+  padding: 20px;
+  background-color: rgba(219, 0, 0, 0.699);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid black;
+  text-transform: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
+#project .image-box .layover p:first-of-type{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#project .image-box .layover .button{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* / third section */
 /* / main */
 

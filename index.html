@@ -119,8 +119,15 @@
             </div>
           </div>
           <div class="image-container">
-            <div class="image-box" v-for="image in activeImages">
+            <div class="image-box" v-for="(image, index) in activeImages" @mouseover="itemIndex = index" @mouseout="itemIndex = null">
               <img :src="image.source" :alt="image.name">
+              <div class="layover" v-show="itemIndex == index">
+                <div class="text">
+                  <p>Purinky Products</p>
+                  <p>uncategorized</p>
+                </div>
+                <div class="button">+</div>
+              </div>
             </div>
           </div>
         </div>

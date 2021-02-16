@@ -42,7 +42,8 @@ let app = new Vue ({
         name: 'dry',
         counter: 2
       }
-    ]
+    ],
+    itemIndex: null
   },
   created() {
     this.imgSlot.forEach((element) => {
