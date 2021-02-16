@@ -48,6 +48,8 @@ let app = new Vue ({
     ],
     itemIndex: null,
     /* / slider */
+    isHover: false,
+    position: ''
   },
   created() {
     this.imgSlot.forEach((element) => {

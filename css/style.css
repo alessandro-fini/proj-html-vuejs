@@ -21,6 +21,10 @@ a{
 p{
   line-height: 1.6;
 }
+
+.white{
+  color: #fff;
+}
 /* / generali */
 
 body{
@@ -416,6 +420,7 @@ nav .nav-right{
   background-color: #fff;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 #testimonial .content-box .text-box{
@@ -432,6 +437,51 @@ nav .nav-right{
   margin-top: 50px;
   font-weight: 700;
   font-size: 18px;
+}
+
+#testimonial .content-box .layer-left{
+  width: calc(100% / 3 - 30px);
+  height: 100.5%;
+  border-top: 8px solid black;
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
+  background-image: url('../img/oliver-ragfelt-488196-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#testimonial .content-box .layer-middle{
+  width: calc(100% / 3 - 30px);
+  height: 101%;
+  background-image: url('../img/12679.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  position: absolute;
+  top: 50%;
+  left: 46.5%;
+  transform: translate(-46.5%, -50%);
+}
+
+#testimonial .content-box .layer-right{
+  width: calc(100% / 3 - 30px);
+  height: 101%;
+  margin-right: 5%;
+  border-top: 8px solid black;
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  background-image: url('../img/oliver-ragfelt-488196-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 /* / fourth section */
 /* / main */
