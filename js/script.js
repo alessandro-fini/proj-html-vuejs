@@ -1,7 +1,7 @@
 let app = new Vue ({
   el: '#app',
   data: {
-    /* header */
+    /* header e footer*/
     headLinks: [
       'home',
       'about',
@@ -10,7 +10,7 @@ let app = new Vue ({
       'blog',
       'contact'
     ],
-    /* / header */
+    /* / header e footer*/
     /* slider */
     activeImages: [],
     counterImg: 1,
@@ -36,12 +36,12 @@ let app = new Vue ({
         counter: 2
       },
       {
-        source: 'img/cover2.jpg',
+        source: 'img/cover1.jpg',
         name: 'sponsorship',
         counter: 2
       },
       {
-        source: 'img/cover1.jpg',
+        source: 'img/cover2.jpg',
         name: 'dry',
         counter: 2
       }

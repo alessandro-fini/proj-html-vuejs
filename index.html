@@ -145,38 +145,98 @@
           </div>
         </div>
         <div class="content-box">
-          <div class="text-box" @mouseover="isHover = true, position = 'left'" @mouseout="isHover = false, position = ''">
+          <div class="text-box">
             <p class="white">When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed by when I hear the buzz of the little .</p>
             <p>Vera Duncan</p>
             <p>Amazon Inc.</p>
           </div>
-          <div class="text-box" @mouseover="isHover = true, position = 'middle'" @mouseout="isHover = false, position = ''">
+          <div class="text-box">
             <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed by when I hear the buzz of the little .</p>
             <p>Vera Duncan</p>
             <p>Amazon Inc.</p>
           </div>
-          <div class="text-box" @mouseover="isHover = true, position = 'right'" @mouseout="isHover = false, position = ''">
+          <div class="text-box">
             <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed by when I hear the buzz of the little .</p>
             <p>Vera Duncan</p>
             <p>Amazon Inc.</p>
           </div>
-          <div class="layer-left" v-if="isHover && position == 'left'"></div>
-          <div class="layer-middle" v-if="isHover && position == 'middle'"></div>
-          <div class="layer-right" v-if="isHover && position == 'right'"></div>
         </div>
       </section>
       <!-- / fourth section -->
       <!-- fifth section (blog) -->
-      <section></section>
+      <section id="blog">
+        <div class="container">
+          <span></span>
+          <span>blog</span>
+          <div class="title-box">
+            <h2>the recent news you must read it</h2>
+            <div class="button">view all</div>
+          </div>
+          <div class="main-box">
+            <div class="left-box">
+              <img src="img/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg" alt="startup">
+              <div class="text-box">
+                <p>july 4, 2019 by paul</p>
+                <h3>Canadian Consulting Firm acquired by UK Giant</h3>
+                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...</p>
+              </div>
+            </div>
+            <div class="right-box">
+              <img src="img/business-people-working-together-on-project-and-5FHSKBL-1390.jpg" alt="people">
+              <div class="text-box">
+                <p>july 4, 2019 by paul</p>
+                <h3>Canadian Consulting Firm acquired by UK Giant</h3>
+                <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- / fifth section -->
       <!-- sixth section (get started) -->
-      <section></section>
+      <section id="work">
+        <div class="img-container">
+          <img src="img/business-people-working-together-on-project-and-B3MZ4TX.jpg" alt="people">
+          <div class="text">
+            <h2>let's talk about work</h2>
+            <p>A wonderful serenity has taken possession Far far away, behind the word mountains.</p>
+            <div class="button">get started</div>
+          </div>
+        </div>
+      </section>
       <!-- / sixth section -->
     </main>
     <!-- / main -->
     <!-- footer -->
     <footer>
-      <div @click="scroll">qui</div>
+      <div class="container">
+        <div class="top">
+          <div class="logo">
+            <img src="img/logotype-2-150x25.png" alt="logo">
+          </div>
+          <div class="links">
+            <a href="#" v-for="link in headLinks">{{link}}</a>
+          </div>
+          <div class="social">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <a href="#">Terms of use</a>
+            <a href="#">Privacy Environmental Policy</a>
+          </div>
+          <div class="right">
+            <span>Copyright © 2021 Phlox Consulting. All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-up" @click="scroll">
+        <i class="fas fa-arrow-up"></i>
+      </div>
     </footer>
     <!-- / footer -->
   </div>
